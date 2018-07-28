@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "FlashCards",
+    "slug": "flash-cards",
+    "sdkVersion": "23.0.0",
+    "privacy": "public",
+    "android": { "package": "br.com.jvnsouza" },
+    "ios": {
+      "bundleIdentifier": "br.com.jvnsouza"
+    },
+    "icon": "./assets/imgs/logo.png",
+    "notification": {
+      "icon": "./assets/imgs/logo.png",
+      "color": "#000000"
+    },
+    "loading": {
+      "icon": "./assets/imgs/logo.png",
+      "hideExponentText": false
+    }
+  }
+}

@@ -1,0 +1,514 @@
+body {
+  background-color: #fcf8f8;
+}
+
+.content-wrapper{
+  margin: 3em 8em 0 8em
+}
+
+.container {
+  text-align: center;
+}
+
+.postdetail-page-container, .category-page-container {
+  margin: 2em 10em 0 10em;
+}
+
+
+/*Wraps around Message (which displays the Category) on CategoryPage*/
+.category-message-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.header-section {
+  margin-bottom: 2em;
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.editpost-header {
+  margin: 2em 0 2em 0;
+}
+
+.ui.center.aligned.header.editcomment-header {
+  margin-bottom: 1em;
+}
+
+a:focus {
+  color: transparent;
+}
+
+/*Mobile Hamburger Button */
+.ui.top.attached.menu > .item:first-child {
+  padding-right: 3.8em;
+  color: #00b5ad;
+}
+
+i.sidebar.icon {
+  padding-right: 2em;
+}
+
+/*SideBar for Mobile*/
+.ui.sidebar {
+  top: 3em;
+}
+
+.ui.inverted.menu {
+  background-color: #009c95;
+}
+
+i.close.icon {
+  color: #fff;
+  text-shadow: none;
+  padding-top: 0.1em !important;
+}
+
+.close-btn {
+  padding-top: 0.3em !important;
+  padding-bottom: 0.2em !important;
+}
+
+/*Change color of Menu-items (buttons) on hover */
+.ui.icon.menu .item:hover,
+.ui.inverted.menu a.item:hover {
+  background-color: #00b5ad;
+}
+
+/*Change text color when hovering over mobile menu items */
+.ui.inverted.icon.menu .item:hover,
+i.close.icon:hover {
+  color: #ccc;
+}
+
+/*Menu Button for desktop Menu*/
+.menu-btn {
+  min-width: 6em;
+}
+
+.ui.centered.header,
+.header-categories {
+  text-align: center;
+}
+
+.ui.small.message.header-categories {
+  width: 20%;
+}
+
+/*Wraps around the Desktop Menu buttons */
+.categories {
+  margin-top: 1em;
+  margin-bottom: 1.5em;
+  display: flex;
+  justify-content: center;
+}
+
+div.header,
+h3.header {
+  color: #767676;
+  font-size: 1.5em;
+  padding: 1em;
+  transition: all 0.2s;
+}
+
+div.header:hover,
+h3.header:hover {
+  opacity: .7;
+}
+
+.author,
+.time,
+.votes,
+.comments {
+  color: #adadad;
+  font-size: 0.95em;
+  padding-right: 1em;
+  margin: 0 0 0.5em 1.2em;
+}
+
+.author,
+.time {
+  display: inline-block;
+}
+
+.votes {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.vote-score {
+  background-color: #767676;
+  color: white;
+  border-radius: 8px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+div.content.votes {
+  margin-top: 0.6em;
+}
+
+.post-body,
+.comment-body {
+  margin-left: 1.2em;
+}
+
+.no-posts {
+  display: flex;
+  margin-right: 10em;
+  margin-left: 10em;
+  justify-content: center;
+}
+
+h3.empty-category {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.ui.divided.relaxed.list {
+  display: flex;
+  justify-content: center;
+}
+
+.ui.raised.segment {
+  padding: 0.5em 3em 1em 3em;
+  width: 75%;
+}
+
+.post-wrapper,
+.comments-wrapper .post-wrapper-categories {
+  display: flex;
+  justify-content: center;
+}
+
+.post-wrapper-categories {
+  margin-top: 1em;
+}
+
+.comment-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 1em 4em 1em 4em;
+}
+
+.comments-form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.post-btn-wrapper,
+.comment-btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ui.basic.red.button.postdetail-deletepost-btn,
+.ui.basic.red.button.postdetail-deletecomment-btn {
+  margin-right: 1em;
+}
+
+.btn-add,
+.add-btn-post {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.btn-add > a > button, .field > button, .add-btn-post > a > button{
+  width: 100% !important;
+}
+
+.add-btn-post{
+  padding-top: 20px;
+}
+
+button.ui.teal.large.compact.button {
+  margin-bottom: 6em;
+}
+
+i.red.thumbs.down {
+  margin-left: 0.25em;
+}
+
+.add-post-form {
+  margin: 3em 16em 0 16em;
+}
+
+h1.ui.add-post-header {
+  margin-bottom: 1em;
+}
+
+.add-comments-form {
+  width: 70%;
+  margin-top: 2em;
+}
+
+.text {
+  margin-bottom: 1.5em;
+}
+
+.ui.form textarea {
+  margin-bottom: 1.5em;
+}
+
+.sort {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+  max-height: 0.5em;
+  margin-right: -3.5em;
+}
+
+.ui.selection.dropdown {
+  border: 1px solid #838383!important;
+  color: #838383!important;
+  min-width: 10em;
+}
+
+.ui.selection.dropdown:hover {
+  border: 1px solid #009c95;
+  color: #009c95;
+}
+
+.ui.selection.active.dropdown .menu, .ui.selection.dropdown:focus .menu, .ui.selection.active.dropdown .menu:hover{
+  border-color: #767676;
+}
+
+input:focus {
+    outline: none !important;
+    border-color: #767676;
+    box-shadow: 0 0 10px #767676;
+}
+
+
+span.text {
+  color: #767676;
+  font-size: 10px;
+  transition: all 0.2s;
+}
+
+span.text:hover {
+  opacity: .7;
+}
+
+.post-not-found {
+  text-align: center;
+  padding-top: 2em;
+  margin-bottom: 6em;
+}
+
+.post-not-found-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.back-btn {
+  position: absolute;
+}
+
+.addpost-form {
+  margin-top: 2em;
+}
+
+@media (max-width: 1150px) {
+  .content-wrapper {
+    margin: 3em 6em 0 6em;
+  }
+
+  .no-posts {
+    margin-right: 4em;
+    margin-left: 4em;
+  }
+
+  .add-comments-form {
+    margin: 2em 8em 0 8em;
+  }
+  .menu-section.categories {
+    margin-left: 2em;
+  }
+}
+
+@media (max-width: 980px) {
+  .content-wrapper {
+    margin: 2.5em 5em 0 5em
+  }
+
+  .postdetail-page-container, .category-page-container {
+    margin-left: 8em;
+    margin-right: 8em;
+  }
+
+  .no-posts {
+    margin-right: 1em;
+    margin-left: 1em;
+  }
+
+  .categories {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .content-wrapper {
+    margin: 2.5em 3em 0 3em
+
+  }
+
+  .postdetail-page-container, .category-page-container {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+
+  .no-posts {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .add-post-form {
+    margin: 2em 12em 0 12em;
+  }
+
+  .add-comments-form {
+    margin: 2em 4.5em 0 4.5em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ui.selection.dropdown .menu {
+    max-height: 12rem;
+  }
+  .sort {
+    margin-right: 0;
+  }
+  .categories {
+    margin: 1em 0 1em 0;
+  }
+  .post-wrapper {
+    padding-top: 1em;
+  }
+.post-container {
+  margin-top: 1em;
+}
+}
+
+@media (max-width: 800px) {
+  .add-post-form {
+    margin: 2em 8em 0 8em;
+  }
+  .add-comments-form {
+    margin: 1.5em 4em 0 4em;
+  }
+  .editpost-header {
+    margin-bottom: 0;
+  }
+  .ui.small.message.header-categories {
+    width: 30%;
+    margin-top: 1em;
+  }
+}
+
+@media (max-width: 680px) {
+  .content-wrapper,
+  .post-wrapper,
+  .post-wrapper-categories {
+    margin: 0.5em 1em 0 1em;
+  }
+  .header-section {
+    margin-bottom: 0;
+  }
+
+  .postdetail-page-container, .category-page-container {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+
+  .menu-btn {
+    max-width: 3.5em;
+  }
+  .ui.teal.raised.segment {
+    width: 85%;
+  }
+  .add-post-form {
+    margin: 2em 5em 0 5em;
+  }
+  .add-comments-form {
+    margin: 1.5em 2.5em 0 2.5em;
+  }
+  .ui.small.message.header-categories {
+    width: 35%;
+  }
+  .ui-header {
+    padding-bottom: 0.25em;
+  }
+}
+
+@media (max-width: 500px) {
+  .add-post-form {
+    margin: 2em 2.5em 0 2.5em;
+  }
+  .comment-wrapper {
+    margin: 0.75em 1.5em 0.75em 1.5em;
+  }
+  .add.comments-form {
+    width: 100%;
+  }
+  .postdetail-page-container, .category-page-container {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+  }
+
+  .title {
+    margin-bottom: 0;
+  }
+
+  div.header,
+  h3.header,
+  .title {
+    padding: 0.5em 0 0.3em 0.4em;
+    font-size: 1.4em;
+  }
+  .author,
+  .time,
+  .votes {
+    margin: 0 0 0.2em 0;
+  }
+  .comments {
+    margin: -2em 0 1em 10em;
+  }
+  .comment-btn-wrapper {
+    margin-top: 1em;
+  }
+  .ui.teal.raised.segment {
+    width: 90%;
+  }
+  .ui.small.message.header-categories {
+    width: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  .comment-btn-wrapper {
+    margin: 0;
+  }
+
+  .postdetail-page-container, .category-page-container {
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+  }
+}
+
+@media (max-width: 360px) {
+  .ui.teal.raised.segment {
+    width: 95%;
+  }
+  .btn-add {
+    margin-left: 1em;
+  }
+
+  .add-btn-post {
+    justify-content: center;
+    margin-left: 1em;
+  }
+}
